@@ -1,10 +1,11 @@
 # IsoGame
 Game which won honorable place in Gamedev Challange http://gynvael.coldwind.pl/?id=662
 
-
-
 ## Gamedev rules
 http://gynvael.coldwind.pl/?id=657
+
+## Play
+https://github.com/Harry09/IsoGame/releases
 
 ## Controls
 - W/S/A/D - move
