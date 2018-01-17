@@ -3,7 +3,7 @@ Game which won honorable place in Gamedev Challange http://gynvael.coldwind.pl/?
 
 
 
-## Gamedev Rules
+## Gamedev rules
 http://gynvael.coldwind.pl/?id=657
 
 ## Controls
