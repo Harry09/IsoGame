@@ -1,0 +1,281 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Play">
+      <UniqueIdentifier>{74c3aac7-517f-4786-956f-4837f74dede8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Play">
+      <UniqueIdentifier>{bb0382b8-ae40-4aaf-a498-1afa12d7381b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Play\Rooms">
+      <UniqueIdentifier>{47cd2da5-96c9-47e9-99f4-37b7662ea7ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Play\Rooms">
+      <UniqueIdentifier>{fd9ecb8f-c74b-4445-9181-357266618309}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\End">
+      <UniqueIdentifier>{f139dd9c-7d3b-4412-8071-f0e8af927d80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\End">
+      <UniqueIdentifier>{d5165de3-6769-44e3-a941-7460b63af443}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Play\Objects">
+      <UniqueIdentifier>{bebefcf2-587c-4c69-bdbf-8fcf7842cbee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Play\Objects\Entities">
+      <UniqueIdentifier>{49b0a711-e3b3-47b2-92d5-7bd4d0ba3c1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Play\Objects\Entities\Enemies">
+      <UniqueIdentifier>{a3e8b30b-c7c6-4f6d-8140-57b05096f17b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Play\Objects\Entities\Enemies\Bosses">
+      <UniqueIdentifier>{4bb0f91b-b284-42b8-96de-002da65cdef1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Common">
+      <UniqueIdentifier>{b6a1cbda-89a7-45f5-9ca3-60669c885eb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Common">
+      <UniqueIdentifier>{a9ae3a39-18d5-4d41-8cbf-e9a66f9f7d87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Play\Objects">
+      <UniqueIdentifier>{8c85dba0-92aa-43c3-a538-49765c7d0fd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Play\Objects\Entities">
+      <UniqueIdentifier>{d75b1ff6-f3d8-4035-ba8d-dcbead4dac98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Play\Objects\Entities\Enemies">
+      <UniqueIdentifier>{74d055ab-1850-4e74-9a79-1ba409160147}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Play\Objects\Entities\Enemies\Bosses">
+      <UniqueIdentifier>{a5ba78a1-c1d4-4ef7-abea-4f477f32155b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Menu">
+      <UniqueIdentifier>{9f552fae-b851-40ba-badc-5defe9e4492b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Menu">
+      <UniqueIdentifier>{c74369db-af81-44e9-a1bc-5add94e285c8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="End\EndScene.h">
+      <Filter>Header Files\End</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Directions.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Common.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\ParticleSystem.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Random.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\ResourceMgr.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Play\Map.h">
+      <Filter>Header Files\Play</Filter>
+    </ClInclude>
+    <ClInclude Include="Play\PlayScene.h">
+      <Filter>Header Files\Play</Filter>
+    </ClInclude>
+    <ClInclude Include="Play\Rooms\Room.h">
+      <Filter>Header Files\Play\Rooms</Filter>
+    </ClInclude>
+    <ClInclude Include="Play\Rooms\BossRoom.h">
+      <Filter>Header Files\Play\Rooms</Filter>
+    </ClInclude>
+    <ClInclude Include="Play\Rooms\ShooterRoom.h">
+      <Filter>Header Files\Play\Rooms</Filter>
+    </ClInclude>
+    <ClInclude Include="Play\Rooms\TreasureRoom.h">
+      <Filter>Header Files\Play\Rooms</Filter>
+    </ClInclude>
+    <ClInclude Include="Play\Rooms\ZombieRoom.h">
+      <Filter>Header Files\Play\Rooms</Filter>
+    </ClInclude>
+    <ClInclude Include="Play\Objects\Entities\Enemies\Bosses\Boss.h">
+      <Filter>Header Files\Play\Objects\Entities\Enemies\Bosses</Filter>
+    </ClInclude>
+    <ClInclude Include="Play\Objects\Entities\Enemies\Bosses\Boss1.h">
+      <Filter>Header Files\Play\Objects\Entities\Enemies\Bosses</Filter>
+    </ClInclude>
+    <ClInclude Include="Play\Objects\Object.h">
+      <Filter>Header Files\Play\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Play\Objects\Pickup.h">
+      <Filter>Header Files\Play\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Play\Objects\Portal.h">
+      <Filter>Header Files\Play\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Play\Objects\Rock.h">
+      <Filter>Header Files\Play\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Play\Objects\Entities\Enemies\Enemy.h">
+      <Filter>Header Files\Play\Objects\Entities\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Play\Objects\Entities\Bullet.h">
+      <Filter>Header Files\Play\Objects\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Play\Objects\Entities\Player.h">
+      <Filter>Header Files\Play\Objects\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Play\Objects\Entities\Enemies\Robot.h">
+      <Filter>Header Files\Play\Objects\Entities\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Play\Objects\Entities\Enemies\SatelliteBoss2.h">
+      <Filter>Header Files\Play\Objects\Entities\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Play\Objects\Entities\Enemies\Zombie.h">
+      <Filter>Header Files\Play\Objects\Entities\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Play\Objects\Entities\Enemies\Shooter.h">
+      <Filter>Header Files\Play\Objects\Entities\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Play\Objects\Entities\Entity.h">
+      <Filter>Header Files\Play\Objects\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Button.h">
+      <Filter>Header Files\End</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu\MenuScene.h">
+      <Filter>Header Files\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Play\Objects\Entities\Enemies\Bosses\FinalBoss.h">
+      <Filter>Header Files\Play\Objects\Entities\Enemies\Bosses</Filter>
+    </ClInclude>
+    <ClInclude Include="Play\Rooms\FinalBossRoom.h">
+      <Filter>Header Files\Play\Rooms</Filter>
+    </ClInclude>
+    <ClInclude Include="Play\Objects\Wall.h">
+      <Filter>Header Files\Play\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Play\Objects\Entities\Enemies\Bosses\Boss1.cpp">
+      <Filter>Source Files\Play\Objects\Entities\Enemies\Bosses</Filter>
+    </ClCompile>
+    <ClCompile Include="Play\Objects\Entities\Enemies\Bosses\Boss.cpp">
+      <Filter>Source Files\Play\Objects\Entities\Enemies\Bosses</Filter>
+    </ClCompile>
+    <ClCompile Include="Play\Rooms\BossRoom.cpp">
+      <Filter>Source Files\Play\Rooms</Filter>
+    </ClCompile>
+    <ClCompile Include="Play\Rooms\ZombieRoom.cpp">
+      <Filter>Source Files\Play\Rooms</Filter>
+    </ClCompile>
+    <ClCompile Include="Play\Rooms\TreasureRoom.cpp">
+      <Filter>Source Files\Play\Rooms</Filter>
+    </ClCompile>
+    <ClCompile Include="Play\Rooms\ShooterRoom.cpp">
+      <Filter>Source Files\Play\Rooms</Filter>
+    </ClCompile>
+    <ClCompile Include="Play\PlayScene.cpp">
+      <Filter>Source Files\Play</Filter>
+    </ClCompile>
+    <ClCompile Include="Play\Objects\Object.cpp">
+      <Filter>Source Files\Play\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Play\Objects\Pickup.cpp">
+      <Filter>Source Files\Play\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Play\Objects\Portal.cpp">
+      <Filter>Source Files\Play\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Play\Objects\Rock.cpp">
+      <Filter>Source Files\Play\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Play\Objects\Wall.cpp">
+      <Filter>Source Files\Play\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Play\Objects\Entities\Bullet.cpp">
+      <Filter>Source Files\Play\Objects\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Play\Objects\Entities\Player.cpp">
+      <Filter>Source Files\Play\Objects\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Play\Objects\Entities\Enemies\Robot.cpp">
+      <Filter>Source Files\Play\Objects\Entities\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Play\Objects\Entities\Enemies\Shooter.cpp">
+      <Filter>Source Files\Play\Objects\Entities\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Play\Objects\Entities\Enemies\Zombie.cpp">
+      <Filter>Source Files\Play\Objects\Entities\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Common.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Play\Map.cpp">
+      <Filter>Source Files\Play</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\ResourceMgr.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\ParticleSystem.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Directions.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Play\Rooms\Room.cpp">
+      <Filter>Source Files\Play\Rooms</Filter>
+    </ClCompile>
+    <ClCompile Include="Play\Objects\Entities\Entity.cpp">
+      <Filter>Source Files\Play\Objects\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Play\Objects\Entities\Enemies\Enemy.cpp">
+      <Filter>Source Files\Play\Objects\Entities\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="End\EndScene.cpp">
+      <Filter>Source Files\End</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Button.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu\MenuScene.cpp">
+      <Filter>Source Files\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Play\Objects\Entities\Enemies\Bosses\FinalBoss.cpp">
+      <Filter>Source Files\Play\Objects\Entities\Enemies\Bosses</Filter>
+    </ClCompile>
+    <ClCompile Include="Play\Rooms\FinalBossRoom.cpp">
+      <Filter>Source Files\Play\Rooms</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
