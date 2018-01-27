@@ -1,5 +1,5 @@
 # IsoGame
-Game which won honorable place in Gamedev Challange http://gynvael.coldwind.pl/?id=662
+Game which won honorable place in Gamedev Challange http://gynvael.coldwind.pl/?id=663
 
 ## Gamedev rules
 http://gynvael.coldwind.pl/?id=657
